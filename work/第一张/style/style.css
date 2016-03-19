@@ -1,0 +1,229 @@
+* {padding: 0;margin: 0;}
+#wrap {width: 930px;
+	margin: 0 auto;
+}
+.header {
+	height: 102px;
+}
+#logo {
+	float:left;
+	width:109px;
+	height: 102px;
+	margin:0 auto;
+}
+#table {float:left;
+	width:500px;
+	height: 102px;
+	margin:0 auto;
+}
+#table .eee li {float: left;
+			list-style: none;
+			background-image: url(../images/jiantou2.gif);
+background-repeat: no-repeat;
+background-position: right center;
+margin-left: 30px;
+padding-right:18px; 
+font-family: "Microsoft Yahei";
+font-size: 14px;
+}
+#table .eee span {
+	display: block;
+	
+}
+#table .eee {margin-top:50px; }
+#search {float:right;
+	width:320px;
+	height: 102px;
+	margin:0 auto;	
+}
+.first {height: 34px;
+		width: 320px;
+		color:#34789b;
+}
+.first li{float: left;
+	list-style:none;
+	font-size: 10px;
+	line-height: 34px;
+}
+.two{height: 33px;	
+}
+.two img {margin-left: 119px;
+margin-top: 6px;		
+}
+.three{height: 35px;
+}
+.three h5{margin-left: 90px;
+	padding-top: 10px;
+}
+h3 {margin-left: 21px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+.banner{
+	height: 380px;
+	width: 930px;
+	}
+.main  {height: 601px;
+	width: 906px;
+	background-color: #fff;
+	}
+.a	{height: 285px;
+	width: 930px;
+	margin-top: 24px;
+}
+.picture1	{
+	height: 285px;
+	float:left;
+	width: 300px;
+	border:1px #c5c5c5 solid;
+
+}
+.picture1 .biao1 li {
+		list-style-image: url(../images/jiantou.gif);
+		margin-left: 40px;
+		margin-top: 13px;
+		font-size: 10px;
+		font-family: Tahoma, Geneva, sans-serif;
+}
+
+.picture2{height: 285px;
+	width: 300px;
+    float: left;
+	border:1px  #c5c5c5 solid;
+	margin-left: 13px;
+	margin-right: 11px;	
+}
+.picture2 .biao2 li{
+	list-style-image: url(../images/jiantou.gif);
+	margin-left: 20px;
+	margin-top: 13px;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.picture3{height: 285px;
+    width: 300px;
+    float: left;
+	border:1px  #c5c5c5 solid;
+}
+.picture3 .biao3 li{
+    list-style-image: url(../images/jiantou.gif);
+	margin-left: 40px;
+	margin-top: 10px;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;	
+}
+.biao3 .xian{
+	border-bottom:   solid 2px  #cacaca  ;
+		padding-bottom: 20px;
+
+}
+.b {height: 43px;
+	width: 930px;
+}
+.apple {float:left;
+	height:43px;
+	width: 467px;
+}
+.orgle {float:right;
+	height:43px;
+	margin-left: 30px;
+}
+.c{height: 218px;
+	width: 930px;
+	border:1px  #c5c5c5 solid;
+	margin-top: 13px;
+}
+.apa{float:left;
+	height: 218px;
+	width: 148px;
+}
+.apa h4{margin-left: 20px;
+margin-top: 24px;
+margin-bottom: 11px;}
+.apa .ge1 li{
+	list-style-image: url(../images/jiantou.gif);
+	margin-left: 20px;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.apb{float:left;
+    height: 218px;
+	width: 156px;
+}
+.apb .ge2 li{
+	list-style-image: url(../images/jiantou.gif);
+	margin-left: 58px;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.apb h4{margin-left: 58px;
+margin-top: 24px;
+margin-bottom: 11px;}
+.apc{float:left;
+	height: 218px;
+	width: 197px;
+}
+.apc .ge3 li{
+	list-style-image: url(../images/jiantou.gif);
+	margin-left: 87px;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.apc h4{margin-left: 87px;
+margin-top: 24px;
+margin-bottom: 11px;}
+.apd{float:left;
+	height: 218px;
+	width: 201px;
+}
+.apd .ge4 li{
+	list-style-image: url(../images/jiantou.gif);
+	margin-left: 77px;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.apd h4{margin-left: 77px;
+margin-top: 24px;
+margin-bottom: 11px;}
+.ape{float:left;
+	height: 218px;
+	width: 220px;
+
+}
+.ape .ge5 li{
+	list-style-image: url(../images/jiantou.gif);
+	margin-left: 62px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+}
+.ape h4{margin-left: 62px;
+margin-top: 24px;
+margin-bottom: 11px;}
+.footer {height: 122px;
+		width: 930px;
+		color: #34789b;
+}
+.footer .f li{
+	list-style: none;
+	margin-left: 79px;	
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.footer .f1 li{
+	list-style: none;
+	margin-left: 62px;	
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.footer .f3 li{
+	list-style: none;
+	margin-left: 130px;	
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.footer .f4 li{
+	list-style: none;
+	margin-left: 448px;	
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}

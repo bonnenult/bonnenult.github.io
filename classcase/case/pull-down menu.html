@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{margin: 0;padding: 0 ;}
+	
+	ul{background-color:red;
+		list-style: none;
+		}
+
+	
+ .apple, .apple1, .apple2{
+ 	background-color: blue;
+ 	float: left;
+ 	width:100px;
+ 	height: 30px;
+ 	border:1px solid red;
+ 	line-height: 30px;
+ 	text-align: center;
+ }
+.one, .one1, .one2{display: none;}
+	</style>
+</head>
+<body>
+	<ul class="list">
+		<li class="apple"><a href="">数据</a>
+			<ul class="one">
+			<li> <a href="">动画</a></li>
+		    <li><a href="">网站</a></li>
+		    <li><a href="">与我联系</a></li>
+	    	</ul>
+		</li>
+		<li class="apple1"><a href="">游戏</a>
+	    	<ul class="one1">
+			<li><a href="">单人游戏</a></li>
+			<li>双人游戏</li>
+	    	</ul>
+		</li>
+	    <li class="apple2"><a href="">影视</a>
+	    	<ul class="one2">
+	    	<li>电视剧</li>
+	    	<li>电影</li>
+	    	<li>日剧</li>
+	    	<li>韩剧</li>
+	    	</ul>
+		</li>
+	</ul>
+	
+  <script src="js/jquery-1.11.1.js"></script>
+  <script type="text/javascript">
+
+  $(".list").mouseenter(function(){
+   $(".one").stop().slideDown(300);
+  })
+ $(".apple1").mouseenter(function(){
+   $(".one1").stop().slideDown(300);
+  })
+$(".apple2").mouseenter(function(){
+   $(".one2").stop().slideDown(300);
+  })
+
+
+
+  $(".apple").mouseleave(function(){
+  	$(".one").stop().slideUp(300);
+  })
+$(".apple1").mouseleave(function(){
+   $(".one1").stop().slideUp(300);
+  })
+$(".apple2").mouseleave(function(){
+   $(".one2").stop().slideUp(300);
+  })
+  </script>
+
+
+</body>
+</html>
